@@ -7,18 +7,10 @@
  - :white_check_mark: (please double check this is consistent with the [CVE process](https://pivotal.io/security), we share this one with Spring)
  
  ## Supported Versions
- ### Reactor Core
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 3.3.x   | :white_check_mark: |
-| 3.2.x   | :white_check_mark: |
-| < 3.2   | :x:                |
-
-### Reactor Netty
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.9.x   | :white_check_mark: |
-| 0.8.x   | :white_check_mark: |
-| < 0.8   | :x:                |
+| Version                                     | Supported          |
+| ------------------------------------------- | ------------------ |
+| Dysprosium Train (core 3.3.x, netty 0.9.x)  | :white_check_mark: |
+| Califonium Train (core 3.2.x, netty 0.8.x)  | :white_check_mark: |
+| Bismuth and below (core < 3.2, netty < 0.8) | :x:                |
+| Reactor 1.x and 2.x Generations             | :x:                |
