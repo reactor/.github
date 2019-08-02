@@ -63,8 +63,8 @@ present in the codebase. Here is a short summary of the style:
 1. Tabs, not spaces
 1. Unix (LF), not DOS (CRLF) line endings
 1. Eliminate all trailing whitespace
-1. Wrap Javadoc at 90 characters
-1. Aim to wrap code at 90 characters, but favor readability over wrapping
+1. Wrap Javadoc at 120 characters
+1. Aim to wrap code at 120 characters, but favor readability over wrapping
 1. Preserve existing formatting; i.e. do not reformat code for its own sake
 1. Search the codebase using `git grep` and other tools to discover common
     naming conventions, etc.
@@ -205,7 +205,9 @@ or _locally_ for the `reactor-core` repository only by omitting the
     
 ### Importing and following the Reactor Code Style
 
-Using your IDE code style support:
+Using your IDE code style support: some projects like reactor-core have
+an exported configuration included. The `reactor-core` one can be
+considered a default for all projects in the reactor organization.
 
 Eclipse users can import the content of `$PROJECT_DIR/codequality/eclipse`
 
@@ -219,7 +221,7 @@ IntelliJ users: If your IDE doesn't support import of xml files
 
 ```java
 /*
- * Copyright (c) 2011-2019 Pivotal Software Inc, All Rights Reserved.
+ * Copyright (c) 2011-Present Pivotal Software Inc, All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -248,11 +250,11 @@ modified a file in 2019 whose header still reads:
  */
 ```
 
-Then be sure to update it to 2019 accordingly:
+Then be sure to update it to:
 
 ```java
 /*
- * Copyright (c) 2011-2019 Pivotal Software Inc, All Rights Reserved.
+ * Copyright (c) 2011-Present Pivotal Software Inc, All Rights Reserved.
  */
 ```
 
