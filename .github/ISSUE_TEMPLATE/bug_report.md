@@ -16,10 +16,10 @@ https://github.com/reactor/.github/blob/master/CONTRIBUTING.md#question-do-you-h
 -->
 
 ## Expected Behavior
-<!--- Tell us what you think should happen.
+<!--- Tell us what you think should happen. -->
 
 ## Actual Behavior
-<!--- Tell us what happens instead of the expected behavior.
+<!--- Tell us what happens instead of the expected behavior. -->
 
 ## Steps to Reproduce
 <!---Provide a link to a live example, or an unambiguous set of steps to
