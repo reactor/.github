@@ -39,7 +39,7 @@ Refer to each project's README for potential other sources of information.
 
 ## :beetle: Did you find a bug?
 
- - **Do not open a GitHub issue if the bug is a security vulnerability in Reactor** (see [SECURITY.md](https://github.com/reactor/.github/SECURITY.md))
+ - **Do not open a GitHub issue if the bug is a security vulnerability in Reactor** (see [SECURITY.md](https://github.com/reactor/.github/blob/master/SECURITY.md))
  - **Ensure the bug was not already reported**: Do a bit of searching
 the relevant project's **Issues** (eg. [reactor-core Issues](https://github.com/reactor/reactor-core/issues/)) to see if you
 can find something similar
