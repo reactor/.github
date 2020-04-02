@@ -96,6 +96,11 @@ Another case where your help is needed in preparing for merge is **if your PR ha
 If you want us to rebase-and-merge, you'll need to let us know and to perform a manual `git rebase -i BASE_BRANCH` in order to prepare the commits.
 You'll probably need to at least squash intermediate commits from the "commit early and often" side of things, and to ensure that the final commits all follow the message convention.
 
+If you're targetting the maintenance branch, see the following discussion:
+https://github.com/reactor/reactor-core/issues/1225
+
+TL;DR: as a maintainer, use `git merge --no-ff --no-commit 3.2.x` and `Merge #xxxx into 3.3` (where `3.2.x` is the maintenance branch and `3.3` is the current generation)
+
 
 ### :black_nib: Commit Message Convention
 We use the following convention for commit message title and body:
