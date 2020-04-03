@@ -99,7 +99,10 @@ You'll probably need to at least squash intermediate commits from the "commit ea
 If you're targetting the maintenance branch, see the following discussion:
 https://github.com/reactor/reactor-core/issues/1225
 
-TL;DR: as a maintainer, use `git merge --no-ff --no-commit 3.2.x` and `Merge #xxxx into 3.3` (where `3.2.x` is the maintenance branch and `3.3` is the current generation)
+TL;DR: as a maintainer, use `git merge --no-ff --no-commit 3.2.x` and `Merge #xxxx into 3.3` (where `3.2.x` is the maintenance branch and `3.3` is the current generation). Once done, add 👍 or 🚀 on the bot's message.
+
+We tend to put the oldest maintenance branch as the milestone of the issue and the newest milestone in which it was forward merged as the milestone of the pr (when there is both an issue and PR).  
+If there is only a PR, use the oldest milestone in which it will be released.
 
 
 ### :black_nib: Commit Message Convention
