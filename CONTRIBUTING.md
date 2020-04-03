@@ -96,6 +96,14 @@ Another case where your help is needed in preparing for merge is **if your PR ha
 If you want us to rebase-and-merge, you'll need to let us know and to perform a manual `git rebase -i BASE_BRANCH` in order to prepare the commits.
 You'll probably need to at least squash intermediate commits from the "commit early and often" side of things, and to ensure that the final commits all follow the message convention.
 
+If you're targetting the maintenance branch, see the following discussion:
+https://github.com/reactor/reactor-core/issues/1225
+
+TL;DR: as a maintainer, use `git merge --no-ff --no-commit 3.2.x` and `Merge #xxxx into 3.3` (where `3.2.x` is the maintenance branch and `3.3` is the current generation). Once done, add 👍 or 🚀 on the bot's message.
+
+We tend to put the oldest maintenance branch as the milestone of the issue and the newest milestone in which it was forward merged as the milestone of the pr (when there is both an issue and PR).  
+If there is only a PR, use the oldest milestone in which it will be released.
+
 
 ### :black_nib: Commit Message Convention
 We use the following convention for commit message title and body:
