@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://stackoverflow.com/questions/tagged/project-reactor
+    about: Please ask and answer questions on StackOverflow with the tag project-reactor
