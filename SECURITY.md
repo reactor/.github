@@ -8,9 +8,10 @@
  
  ## Supported Versions
 
-| Version                                     | Supported          |
-| ------------------------------------------- | ------------------ |
-| Dysprosium Train (core 3.3.x, netty 0.9.x)  | :white_check_mark: |
-| Califonium Train (core 3.2.x, netty 0.8.x)  | :white_check_mark: |
-| Bismuth and below (core < 3.2, netty < 0.8) | :x:                |
-| Reactor 1.x and 2.x Generations             | :x:                |
+| Version                                                | Supported          |
+| ------------------------------------------------------ | ------------------ |
+| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | :white_check_mark: |
+| Dysprosium Train (core 3.3.x, netty 0.9.x)             | :white_check_mark: |
+| Califonium Train (core 3.2.x, netty 0.8.x)             | :white_check_mark: |
+| Bismuth and below (core < 3.2, netty < 0.8)            | :x:                |
+| Reactor 1.x and 2.x Generations                        | :x:                |
