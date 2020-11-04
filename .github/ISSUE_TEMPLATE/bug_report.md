@@ -23,11 +23,13 @@ https://github.com/reactor/.github/blob/master/CONTRIBUTING.md#question-do-you-h
 
 ## Steps to Reproduce
 <!---Provide a link to a live example, or an unambiguous set of steps to
-reproduce this bug, eg. a unit test. Include code to reproduce, if relevant. -->
+reproduce this bug, eg. a unit test. Include code to reproduce, if relevant.
+Most projects use JUnit5 now (like in snippet below; otherwise use JUnit4).
+-->
 
 ```java
 @Test
-public void repoCase() {
+void reproCase() {
 
 }
 ```
