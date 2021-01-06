@@ -43,5 +43,5 @@ void reproCase() {
 
 * Reactor version(s) used:
 * Other relevant libraries versions (eg. `netty`, ...):
-* JVM version (`javar -version`):
+* JVM version (`java -version`):
 * OS and version (eg `uname -a`):
