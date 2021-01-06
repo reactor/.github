@@ -28,7 +28,7 @@ When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
    - pointers to replacements for the deprecated method
    - version in which method was deprecated
 
-> This policy is officially in effect as of January 20201.
+> This policy is officially in effect as of January 2021.
 
 Note that deprecation removal targets are not a hard commitment, and the deprecated methods **could live on further than these minimum target GA versions** (ie. only the most problematic deprecated methods will be removed aggressively).
 

@@ -50,7 +50,7 @@ When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
    - pointers to replacements for the deprecated method
    - version in which method was deprecated
 
-> This policy is officially in effect as of January 20201.
+> This policy is officially in effect as of January 2021.
 
 Note that deprecation removal targets are not a hard commitment, and the deprecated methods **could live on further than these minimum target GA versions** (ie. only the most problematic deprecated methods will be removed aggressively).
 
@@ -323,4 +323,3 @@ To learn more about these techniques, like `git rebase --interactive --autosquas
 atomic commit, in addition to the man pages for git.
 The [Rewriting History section of Pro Git](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 provides a good overview about these tools.
-
