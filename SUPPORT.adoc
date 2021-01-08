@@ -26,9 +26,9 @@ When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
  - deprecations introduced in version `A`.`B`.`0` will be removed **no sooner than** version `A`.**`B+1`**.`0`
  - deprecations introduced in version `A`.`B`.`1+` will be removed **no sooner than** version `A`.**`B+2`**.`0`
  - we'll strive to mention the following in the deprecation javadoc:
-   - target minimum version for removal
-   - pointers to replacements for the deprecated method
-   - version in which method was deprecated
+ * target minimum version for removal
+ * pointers to replacements for the deprecated method
+ * version in which method was deprecated
 
 TIP: This policy is officially in effect as of January 2021, for all modules in `2020.0` BOMs and newer release trains, as well as `Dysprosium` reactor-core releases after `3.3.12.RELEASE`.
 
