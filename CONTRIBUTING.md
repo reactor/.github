@@ -256,13 +256,13 @@ IntelliJ users: If your IDE doesn't support import of xml files
 
 ```java
 /*
- * Copyright (c) 2011-Present Pivotal Software Inc, All Rights Reserved.
+ * Copyright (c) 2011-Present VMware Inc. or its affiliates, All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *       https://www.apache.org/licenses/LICENSE-2.0
+ *        https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -277,11 +277,13 @@ package ...;
 #### Update Apache license header in modified files as necessary
 
 Always check the date range in the license header. For example, if you've
-modified a file in 2019 whose header still reads:
+modified a file in 2021 whose header still mentions Pivotal and/or an end year,
+like in the examples below:
 
 ```java
 /*
  * Copyright (c) 2011-2015 Pivotal Software Inc, All Rights Reserved.
+ * Copyright (c) 2011-Present Pivotal Software Inc, All Rights Reserved.
  */
 ```
 
@@ -289,7 +291,7 @@ Then be sure to update it to:
 
 ```java
 /*
- * Copyright (c) 2011-Present Pivotal Software Inc, All Rights Reserved.
+ * Copyright (c) 2011-Present VMware Inc. or its affiliates, All Rights Reserved.
  */
 ```
 
