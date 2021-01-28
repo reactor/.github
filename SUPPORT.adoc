@@ -30,7 +30,7 @@ When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
   ** pointers to replacements for the deprecated method
   ** version in which method was deprecated
 
-TIP: This policy is officially in effect as of January 2021, for all modules in `2020.0` BOMs and newer release trains, as well as `Dysprosium` reactor-core releases after `3.3.12.RELEASE`.
+TIP: This policy is officially in effect as of January 2021, for all modules in `2020.0` BOMs and newer release trains, as well as `Dysprosium` releases after `Dysprosium-SR15`.
 
 NOTE: Deprecation removal targets are not a hard commitment, and the deprecated methods **could live on further than these minimum target GA versions** (ie. only the most problematic deprecated methods will be removed aggressively).
 
@@ -40,10 +40,11 @@ WARNING: That said, deprecated code that has outlived its minimum removal target
 
 The following table summarises the development status of the various Reactor release trains:
 
-| Version                                                | Supported          |
-| ------------------------------------------------------ | ------------------ |
-| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | :white_check_mark: |
-| Dysprosium Train (core 3.3.x, netty 0.9.x)             | :white_check_mark: |
-| Califonium Train (core 3.2.x, netty 0.8.x)             | :white_check_mark: |
-| Califonium and below (core < 3.3, netty < 0.9)         | :x:                |
-| Reactor 1.x and 2.x Generations                        | :x:                |
+|=======
+| Version                                                | Supported
+
+| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | :white_check_mark:
+| Dysprosium Train (core 3.3.x, netty 0.9.x)             | :white_check_mark:
+| Califonium and below (core < 3.3, netty < 0.9)         | :x:
+| Reactor 1.x and 2.x Generations                        | :x:
+|=======
