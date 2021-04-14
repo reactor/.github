@@ -10,9 +10,9 @@ assignees: ''
 <!--- Provide a general summary of the issue in the Title above -->
 
 <!--- /!\ Make sure to follow the Contribution Guidelines, notably for security issues and questions:
-https://github.com/reactor/.github/blob/master/CONTRIBUTING.md
+https://github.com/reactor/.github/blob/main/CONTRIBUTING.md
 https://pivotal.io/security
-https://github.com/reactor/.github/blob/master/CONTRIBUTING.md#question-do-you-have-a-question
+https://github.com/reactor/.github/blob/main/CONTRIBUTING.md#question-do-you-have-a-question
 -->
 
 ## Documentation Issue

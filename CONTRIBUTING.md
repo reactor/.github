@@ -58,7 +58,7 @@ Note that deprecation removal targets are not a hard commitment, and the depreca
 
 ## :beetle: Did you find a bug?
 
- - **Do not open a GitHub issue if the bug is a security vulnerability in Reactor** (see [SECURITY.md](https://github.com/reactor/.github/blob/master/SECURITY.md))
+ - **Do not open a GitHub issue if the bug is a security vulnerability in Reactor** (see [SECURITY.md](https://github.com/reactor/.github/blob/main/SECURITY.md))
  - **Ensure the bug was not already reported**: Do a bit of searching
 the relevant project's **Issues** (eg. [reactor-core Issues](https://github.com/reactor/reactor-core/issues/)) to see if you
 can find something similar
@@ -105,10 +105,10 @@ present in the codebase. Here is a short summary of the style:
  - **Commit early and commit often**. Try to still have **descriptive commit messages** though. This helps during the review process, to see through which steps and train of thought you went
  - Once submitted, the review and discussion starts. If necessary, make adjustments in **further commits**
  - Use your **real name** in commits (see [configuration hints](#using-real-names))
- - _Once the PR is **approved**_ :white_check_mark: , clean up and **prepare for merge** (see [From PR to master](#from-pr-to-master))
+ - _Once the PR is **approved**_ :white_check_mark: , clean up and **prepare for merge** (see [From PR to main](#from-pr-to-main))
 
-### From PR to `master`
-For each PR, there will generally be **a single commit** that goes into `master`. We will try to use the `squash-and-merge` strategy on GitHub to that effect, but if you do that yourself once the PR is approved, it's even better :heart:
+### From PR to `main`
+For each PR, there will generally be **a single commit** that goes into `main` (or formerly `master`). We will try to use the `squash-and-merge` strategy on GitHub to that effect, but if you do that yourself once the PR is approved, it's even better :heart:
 
 Another case where your help is needed in preparing for merge is **if your PR has a few logical changes**, and you'd like to have as many commits.
 (Note that if you have more than, say, 3 of these, it's probably that you actually need to do several PRs).
@@ -155,12 +155,12 @@ If this is the case, the fix should be implemented against the earliest relevant
 maintenance branch, which will be indicated in the issue as the _milestone_.
 
 For instance, if an issue should be fixed in both 3.1 and 3.2, the later being
-developed on master, the fix PR should be opened against `3.1.x` (and the issue
+developed on main, the fix PR should be opened against `3.1.x` (and the issue
 will be triaged into `3.1.x Maintenance Backlog`).
 
 If on the other hand the issue should only be fixed in the next feature release,
 it will be affected to the `Backlog` triage milestone and should be developed
-against `master`.
+against `main`.
 
 ### Creating a branch with representative name
 
