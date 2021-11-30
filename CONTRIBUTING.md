@@ -12,14 +12,14 @@ This document gives you guidelines and pointers at how you should approach contr
 ## :runner: Super Short Version
 
 1. Work from a feature branch
-  - Evaluate or ask the team whether the fix should be done in oldest maintenance branch (if there are any active, eg. `3.3.x`)
-1. All contributions go through a [Pull Request](#mortar_board-learning-more-about-the-tools-we-use) and code review process, including our own!
-1. Make sure to sign the [CLA](#clipboard-contributor-license-agreement)
-1. Include tests
-1. Update [license headers](#license-headers) if necessary
-1. Make sure commits are focused on a single issue, ideally within a dedicated PR
-  - Before merging, we'll strive to have single-concern commit(s) with a [well crafted message]((#black_nib-commit-message-convention)
-1. Make sure to follow [code style](#art-code-style) and to only reformat changed lines
+ - Evaluate or ask the team whether the fix should be done in oldest maintenance branch (if there are any active, eg. `3.3.x`)
+2. All contributions go through a [Pull Request](#mortar_board-learning-more-about-the-tools-we-use) and code review process, including our own!
+3. Make sure to sign the [CLA](#clipboard-contributor-license-agreement)
+4. Include tests
+5. Update [license headers](#license-headers) if necessary
+6. Make sure commits are focused on a single issue, ideally within a dedicated PR
+ - Before merging, we'll strive to have single-concern commit(s) with a [well crafted message]((#black_nib-commit-message-convention)
+7. Make sure to follow [code style](#art-code-style) and to only reformat changed lines
 
 
 For more details:
