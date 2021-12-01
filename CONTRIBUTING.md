@@ -133,10 +133,10 @@ Please see our information on [obvious fixes](https://cla.pivotal.io/about#obvio
 
 
 ## :art: Code style
-The Reactor code style can be [imported into your IDE](#importing-and-following-the-reactor-code-style).
+Please carefully follow the whitespace and formatting conventions already present in the codebase.
+Avoid reformatting whole files in favour of changed lines only.
 
-Please carefully follow the whitespace and formatting conventions already
-present in the codebase. Here is a short summary of the style:
+Here is a short summary of the style:
 
 1. Tabs, not spaces
 1. Unix (LF), not DOS (CRLF) line endings
@@ -146,6 +146,8 @@ present in the codebase. Here is a short summary of the style:
 1. Preserve existing formatting; i.e. do not reformat code for its own sake
 1. Open brackets on same line, close brackets isolated on a dedicated new line
 1. `else`, `catch`, `finally` on a new line
+
+Each project might have some formatter configuration exported, see [Importing and following the Reactor Code Style](#importing-and-following-the-reactor-code-style) for more details.
 
 ## :sparkles: PR and commit style
 
@@ -308,9 +310,23 @@ or _locally_ for the `reactor-core` repository only by omitting the
     
 ### Importing and following the Reactor Code Style
 
-Using your IDE code style support: some projects like reactor-core have
-an exported configuration included. The `reactor-core` one can be
-considered a default for all projects in the reactor organization.
+Please carefully follow the whitespace and formatting conventions already present in the codebase.
+Avoid reformatting whole files in favour of changed lines only.
+
+You might want to rely on your IDE's code style support: some projects include an exported configuration.
+`reactor-netty` uses `editorconfig` for instance.
+
+If you cannot find any particular instructions below, `reactor-core` style would be a good default for most reactor projects.
+
+#### Reactor-Netty code style configuration
+
+If your editor supports [editorconfig](https://editorconfig.org/), then it should pick up formatter configuration automatically.
+
+That standard is pretty narrow in scope, but allows custom parameters to be added to the config file.
+`IntelliJ` has way finer formatter configuration, which it can write to / read from the editorconfig file.
+It is the case for reactor-netty.
+
+#### Reactor-Core code style configuration
 
 Eclipse users can import the content of `$PROJECT_DIR/codequality/eclipse`
 
