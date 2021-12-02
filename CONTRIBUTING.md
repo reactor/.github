@@ -204,7 +204,7 @@ assuming `3.4.x` is the current main line it will be affected to the `3.4.x Back
 triage milestone and should be developed against `main`.
 
 ### From PR to `main`
-For each PR, there will generally be **a single commit** that goes into `main` (or formerly `master`). We will try to use the `squash-and-merge` strategy on GitHub to that effect, but if you do that yourself once the PR is approved, it's even better :heart:
+For each PR, there will generally be **a single commit** that goes into `main` (or formerly `master`). We will try to use the `squash-and-merge` strategy on GitHub to that effect.
 
 Another case where your help is needed in preparing for merge is **if your PR has a few logical changes**, and you'd like to have as many commits.
 (Note that if you have more than, say, 3 of these, it's probably that you actually need to do several PRs).
