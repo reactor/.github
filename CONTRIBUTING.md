@@ -18,7 +18,7 @@ This document gives you guidelines and pointers at how you should approach contr
 4. Include tests
 5. Update [license headers](#license-headers) if necessary
 6. Make sure commits are focused on a single issue, ideally within a dedicated PR
- - Before merging, we'll strive to have single-concern commit(s) with a [well crafted message]((#black_nib-commit-message-convention)
+ - Before merging, we'll strive to have single-concern commit(s) with a [well crafted message](#black_nib-commit-message-convention)
 7. Make sure to follow [code style](#art-code-style) and to only reformat changed lines
 
 
