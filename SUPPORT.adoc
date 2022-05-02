@@ -1,3 +1,13 @@
+ifdef::env-github[]
+:supported: :white_check_mark:
+:unsupported: :x:
+endif::[]
+
+ifndef::env-github[]
+:supported: icon:check-square[2x,role=green]
+:unsupported: icon:times[2x,role=red]
+endif::[]
+
 = Do you have a question?
 
 TIP: Search Stack Overflow first; discuss if necessary
@@ -43,8 +53,8 @@ The following table summarises the development status of the various Reactor rel
 |=======
 | Version                                                | Supported
 
-| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | :white_check_mark:
-| Dysprosium Train (core 3.3.x, netty 0.9.x)             | :x:
-| Califonium and below (core < 3.3, netty < 0.9)         | :x:
-| Reactor 1.x and 2.x Generations                        | :x:
+| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | {supported}
+| Dysprosium Train (core 3.3.x, netty 0.9.x)             | {unsupported}
+| Califonium and below (core < 3.3, netty < 0.9)         | {unsupported}
+| Reactor 1.x and 2.x Generations                        | {unsupported}
 |=======
