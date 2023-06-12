@@ -53,7 +53,8 @@ The following table summarises the development status of the various Reactor rel
 |=======
 | Version                                                | Supported
 
-| 2020.0.0 (codename Europium) (core 3.4.x, netty 1.0.x) | {supported}
+| 2022.0.x (core 3.5.x, netty 1.1.x)                     | {supported}
+| 2020.0.x (codename Europium) (core 3.4.x, netty 1.0.x) | {supported}
 | Dysprosium Train (core 3.3.x, netty 0.9.x)             | {unsupported}
 | Califonium and below (core < 3.3, netty < 0.9)         | {unsupported}
 | Reactor 1.x and 2.x Generations                        | {unsupported}
