@@ -42,7 +42,7 @@ When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
 TIP: If deprecation was introduced in 2020.0.12 release BOM, it could be removed not
 earlier than 2026-12-31 which is the end of commercial support for the 2020.0.x line.
 
-TIP: This policy is officially in effect as of January 2023, for all modules in `2020.0` BOMs and newer release trains.
+TIP: This policy is officially in effect as of January 2024, for all modules in `2020.0` BOMs and newer release trains.
 
 NOTE: Deprecation removal targets are not a hard commitment, and the deprecated methods **could live on further than these minimum target GA versions** (ie. only the most problematic deprecated methods will be removed aggressively).
 
