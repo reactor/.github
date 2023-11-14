@@ -33,14 +33,16 @@ We generally discourage opening GitHub issues for questions, in favor of the two
 
 When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
 
- * deprecations introduced in version `A`.`B`.`0` will be removed **no sooner than** version `A`.**`B+1`**.`0`
- * deprecations introduced in version `A`.`B`.`1+` will be removed **no sooner than** version `A`.**`B+2`**.`0`
- * we'll strive to mention the following in the deprecation javadoc:
-  ** target minimum version for removal
-  ** pointers to replacements for the deprecated method
-  ** version in which method was deprecated
+* deprecations introduced in version `A`.`B`.`x` will be removed **no sooner than** end of commercial support for `A`.`B`.`x` line
+* we'll strive to mention the following in the deprecation javadoc:
+** target minimum version for removal
+** pointers to replacements for the deprecated method
+** version in which method was deprecated
 
-TIP: This policy is officially in effect as of January 2021, for all modules in `2020.0` BOMs and newer release trains, as well as `Dysprosium` releases after `Dysprosium-SR15`.
+TIP: If deprecation was introduced in 2020.0.12 release BOM, it could be removed not
+earlier than 2026-12-31 which is the end of commercial support for the 2020.0.x line.
+
+TIP: This policy is officially in effect as of January 2023, for all modules in `2020.0` BOMs and newer release trains.
 
 NOTE: Deprecation removal targets are not a hard commitment, and the deprecated methods **could live on further than these minimum target GA versions** (ie. only the most problematic deprecated methods will be removed aggressively).
 
@@ -51,11 +53,13 @@ WARNING: That said, deprecated code that has outlived its minimum removal target
 The following table summarises the development status of the various Reactor release trains:
 
 |=======
-| Version                                                | Supported
+| Version                                                | Initial Release | End of Support            | End of Commercial Support*
 
-| 2022.0.x (core 3.5.x, netty 1.1.x)                     | {supported}
-| 2020.0.x (codename Europium) (core 3.4.x, netty 1.0.x) | {supported}
-| Dysprosium Train (core 3.3.x, netty 0.9.x)             | {unsupported}
-| Califonium and below (core < 3.3, netty < 0.9)         | {unsupported}
-| Reactor 1.x and 2.x Generations                        | {unsupported}
+| 2023.0.x (core 3.6.x, netty 1.1.x)                     | 2023.11.14      | 2025-08-31 {supported}    | 2026-12-31 {supported}
+| 2022.0.x (core 3.5.x, netty 1.1.x)                     | 2022.11.08      | 2024-08-31 {supported}    | 2025-12-31 {supported}
+| 2020.0.x (codename Europium) (core 3.4.x, netty 1.0.x) | 2020.10.26      | 2024-12-31 {supported}    | 2026-12-31 {supported}
 |=======
+
+NOTE:  *About commercial support* *(***)*:
+       This page shows the current state of project releases and does not define the
+commercial support policy. Please refer to the https://tanzu.vmware.com/spring-runtime[official support policy] for more information.
