@@ -33,7 +33,9 @@ We generally discourage opening GitHub issues for questions, in favor of the two
 
 When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
 
-* deprecations introduced in version `A`.`B`.`x` will be removed **no sooner than** in version released near or after the end of commercial support for `A`.`B`.`x` line
+* deprecations introduced in version `A`.`B`.`x` will be removed **no sooner than** in
+version released near or after the end of commercial support for `A`.`B`.`x` line or
+any prior lines supported longer than `A`.`B.`x` line
 * we'll strive to mention the following in the deprecation javadoc:
 ** target minimum version for removal
 ** pointers to replacements for the deprecated method
