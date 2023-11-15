@@ -31,11 +31,16 @@ We generally discourage opening GitHub issues for questions, in favor of the two
 
 = Our policy on **deprecations**
 
-When dealing with deprecations, given a version `A.B.C`, we'll ensure that:
+When dealing with deprecations, given a version `A.B.C` (e.g. 2020.0.1), we'll ensure
+that:
 
-* deprecations introduced in version `A`.`B`.`x` will be removed **no sooner than** in
-version released near or after the end of commercial support for `A`.`B`.`x` line or
-any prior lines supported longer than `A`.`B.`x` line
+* deprecations introduced in release train `A`.`B`.`0` will be removed **no sooner
+than** in release train released near or after the end of commercial support for `A-1`.`B`.`x`
+release train or any prior release trains supported longer than `A-1`.`B`.`x` release
+train
+* deprecations introduced in release train `A`.`B`.`x` will be removed **no sooner than** in
+release train released near or after the end of commercial support for `A`.`B`.`x` release
+train or any release trains supported longer than `A`.`B`.`x` release train
 * we'll strive to mention the following in the deprecation javadoc:
 ** target minimum version for removal
 ** pointers to replacements for the deprecated method
