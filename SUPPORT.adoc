@@ -41,10 +41,11 @@ any prior lines supported longer than `A`.`B.`x` line
 ** pointers to replacements for the deprecated method
 ** version in which method was deprecated
 
-TIP: If deprecation was introduced in 2020.0.12 release BOM, it could be removed not
-earlier than 2026-12-31 which is the end of commercial support for the 2020.0.x line.
-That means that only the iteration released in 2026 could safely remove in potential
-2026.0.x release BOM
+TIP: If deprecation was introduced in 2022.0.12 release BOM, it could be removed not
+earlier than 2026-12-31 since that is the end of commercial support for the 2020.0.x
+line which has longer support than 2022.0.x line.
+That means that only the iteration released in 2026 or later could safely remove given
+deprecations.
 
 TIP: This policy is officially in effect as of January 2024, for all modules in `2020.0` BOMs and newer release trains.
 
