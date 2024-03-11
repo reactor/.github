@@ -2,7 +2,7 @@
 name: Documentation Issue
 about: Suggest an improvement to the documentation (javadoc, reference doc...)
 title: ''
-labels: 'triage/documentation:question:'
+labels: status/need-triage, type/documentation
 assignees: ''
 
 ---
