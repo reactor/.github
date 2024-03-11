@@ -2,7 +2,7 @@
 name: Enhancement / Suggestion
 about: Suggest an idea for this project
 title: ''
-labels: 'triage/enhancement:question:'
+labels: status/need-triage, type/enhancement
 assignees: ''
 
 ---
