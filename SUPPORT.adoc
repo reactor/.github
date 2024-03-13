@@ -48,6 +48,9 @@ WARNING: That said, deprecated code that has outlived its minimum removal target
 
 = Support Timeline
 
+Our GA release cadence is annual. The next release train is `2024`. The timeline is
+subject to change.
+
 The following table summarises the support dates for each individual project followed by the BOM support.
 
 |===
