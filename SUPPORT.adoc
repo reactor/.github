@@ -48,8 +48,7 @@ WARNING: That said, deprecated code that has outlived its minimum removal target
 
 = Support Timeline
 
-Project Reactor's support timeline aligns with Spring Framework. The following table
-summarises the support dates for each individual project followed by the BOM support.
+The following table summarises the support dates for each individual project followed by the BOM support.
 
 |===
 |Version |Initial OSS Release |OSS Support End |Commercial Support (+*+) End |Published in BOM
