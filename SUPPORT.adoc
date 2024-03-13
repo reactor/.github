@@ -46,16 +46,158 @@ NOTE: Deprecation removal targets are not a hard commitment, and the deprecated 
 
 WARNING: That said, deprecated code that has outlived its minimum removal target version may be removed in any subsequent release (including patch releases, aka service releases) without further notice. So users should still strive to update their code as early as possible.
 
-= Active Development
+= Support Timeline
 
-The following table summarises the development status of the various Reactor release trains:
+The following table summarises the support dates for each individual project followed by the BOM support.
 
-|=======
-| Version                                                | Supported
+|===
+|Version |Initial OSS Release |OSS Support End |Commercial Support (+*+) End |Published in BOM
 
-| 2022.0.x (core 3.5.x, netty 1.1.x)                     | {supported}
-| 2020.0.x (codename Europium) (core 3.4.x, netty 1.0.x) | {supported}
-| Dysprosium Train (core 3.3.x, netty 0.9.x)             | {unsupported}
-| Califonium and below (core < 3.3, netty < 0.9)         | {unsupported}
-| Reactor 1.x and 2.x Generations                        | {unsupported}
-|=======
+|*reactor-core*
+|
+|
+|
+|
+
+|3.6
+|2023-11-14
+|2025-08-31
+|2026-12-31
+|2023
+
+|3.5
+|2022-11-08
+|2024-08-31
+|2025-12-31
+|2022
+
+|3.4
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-netty*
+|
+|
+|
+|
+
+|1.1
+|2022-11-08
+|2025-08-31
+|2026-12-31
+|2022, 2023
+
+|1.0
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-kafka*
+|
+|
+|
+|
+
+|1.3
+|2020-10-26
+|2025-08-31
+|2026-12-31
+|2020, 2022, 2023
+
+|*reactor-pool*
+|
+|
+|
+|
+
+|1.0
+|2022-11-08
+|2025-08-31
+|2026-12-31
+|2022, 2023
+
+|0.2
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-addons*
+|
+|
+|
+|
+
+|3.5
+|2022-11-08
+|2025-08-31
+|2026-12-31
+|2022, 2023
+
+|3.4
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-kotlin-extensions*
+|
+|
+|
+|
+
+|1.2
+|2022-11-08
+|2025-08-31
+|2026-12-31
+|2022, 2023
+
+|1.1
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-rabbitmq*
+|
+|
+|
+|
+
+|1.5
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|2020
+
+|*reactor-bom*
+|
+|
+|
+|
+
+|2023
+|2023-11-14
+|2025-08-31
+|2026-12-31
+|-
+
+|2022
+|2022-11-08
+|2024-08-31
+|2025-12-31
+|-
+
+|2020
+|2020-10-26
+|2024-08-31
+|2025-12-31
+|-
+
+|===
+
+NOTE: *(+*+) Commercial Support*
+    For more information visit https://spring.io/support[Spring Support page].
