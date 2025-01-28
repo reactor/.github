@@ -14,7 +14,7 @@ This document gives you guidelines and pointers at how you should approach contr
 1. Work from a feature branch
  - Evaluate or ask the team whether the fix should be done in oldest maintenance branch (if there are any active, eg. `3.3.x`)
 2. All contributions go through a [Pull Request](#mortar_board-learning-more-about-the-tools-we-use) and code review process, including our own!
-3. Make sure to sign the [CLA](#clipboard-contributor-license-agreement)
+3. Make sure to sign your commits using a [Signed-off-by trailer](#clipboard-developer-certificate-of-origin)
 4. Include tests
 5. Update [license headers](#license-headers) if necessary
 6. Make sure commits are focused on a single issue, ideally within a dedicated PR
@@ -102,7 +102,7 @@ can find something similar
 ## :wrench: Did you write a patch that fixes a bug?
 
  - We no longer require an issue to be opened before a PR. That said, opening an issue first can help in triaging and avoiding wasted effort. For instance, you might need to [target an older branch](#starting-from-the-right-branch)
- - Be sure to **[sign](https://cla.pivotal.io/sign/reactor) the Contributor Licence Agreement(CLA)**. A bot will remind you about that anyway. The CLA form integrates with GitHub, just follow the steps
+ - Be sure to sign your commits using a [Signed-off-by trailer](#clipboard-developer-certificate-of-origin)
  - Try to create a branch with a **meaningful name** (see hints [here](#creating-a-branch-with-representative-name))
  - Work on your change. Be sure to include **JUnit test cases**, this will greatly help maintainers while reviewing your change
  - **Run all tests locally** prior to submission: `./gradlew check`
@@ -113,24 +113,10 @@ can find something similar
  - If nothing like that has been suggested before, **discuss it in a new issue first**
  - If you gather positive feedback, **work on the change** following the guideline [above](#wrench-did-you-write-a-patch-that-fixes-a-bug)
 
-### :clipboard: Contributor License Agreement
+### :clipboard: Developer Certificate of Origin
 
-All contributors to this project must have a signed Contributor License Agreement (**"CLA"**) on file with us.
-
-> The CLA grants us the permissions we need to use and redistribute your contributions as part of the project; you or your employer retain the copyright to your contribution.
-Head over to https://cla.pivotal.io/ to see your current agreement(s) on file.
-
-CLA signature is enforced by a GitHub check, you should receive a message from `pivotal-cla` bot if you haven't signed, with instructions on how to do so.
-
-
-  - If asked, you should select the `reactor` CLA when signing (see https://cla.pivotal.io/sign/reactor)
-  - We generally only need you (or your employer) to sign our CLA once and once signed, you should be able to submit contributions to any Reactor project
-
-**Trivial (Obvious) Fixes:**
-
-If you would like to submit an "_obvious fix_" for something like a typo, formatting issue or spelling mistake, you may not need to sign the CLA.
-Please see our information on [obvious fixes](https://cla.pivotal.io/about#obvious-fix) for more details.
-
+All commits must include a __Signed-off-by__ trailer at the end of each commit message to indicate that the contributor agrees to the Developer Certificate of Origin.
+For additional details, please refer to the blog post https://spring.io/blog/2025/01/06/hello-dco-goodbye-cla-simplifying-contributions-to-spring[Hello DCO, Goodbye CLA: Simplifying Contributions to Spring].
 
 ## :art: Code style
 Please carefully follow the whitespace and formatting conventions already present in the codebase.
@@ -287,13 +273,9 @@ intend to submit as pull requests. For example, this is not acceptable:
 
     Author: Nickname <user@mail.com>
 
-Rather, please include your first and last name, properly capitalized, as
-submitted against the Spring Individual Contributor License Agreement (ICLA):
+Rather, please include your first and last name, properly capitalized.
 
     Author: First Last <user@mail.com>
-
-This helps ensure traceability against the ICLA and also goes a long way to
-ensuring useful output from tools like `git shortlog` and others.
 
 You can configure this via the account admin area in GitHub (useful for
 fork-and-edit cases); _globally_ on your machine with
