@@ -28,7 +28,7 @@ For more details:
  - [Did you find a bug?](#beetle-did-you-find-a-bug)
  - [Did you write a patch that fixes a bug?](#wrench-did-you-write-a-patch-that-fixes-a-bug)
  - [Do you intend to add a new feature or change an existing one?](#mag-do-you-intend-to-add-a-new-feature-or-change-an-existing-one)
- - [Contributor License Agreement](#clipboard-contributor-license-agreement)
+ - [Contributor License Agreement](#clipboard-developer-certificate-of-origin)
  - [Code style](#art-code-style)
  - [PR and commit style](#sparkles-pr-and-commit-style)
  - > be sure to at least look at the [Commit Message Convention](#black_nib-commit-message-convention)
