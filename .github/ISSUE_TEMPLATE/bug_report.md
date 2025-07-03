@@ -10,7 +10,7 @@ assignees: ''
 <!--- Provide a general summary of the issue in the Title above -->
 
 <!-- Make sure you use supported version
-https://github.com/reactor/.github/blob/main/SUPPORT.adoc#support-timeline
+https://projectreactor.io/support
 -->
 
 <!--- /!\ Make sure to follow the Contribution Guidelines, notably for security issues and questions:
